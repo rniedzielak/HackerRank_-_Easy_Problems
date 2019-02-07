@@ -23,6 +23,7 @@ class Solution {
             string binary = Convert.ToString(n, 2);
             int numOfZeros = binary.Count(v=> v=='0');
             return (long)Math.Pow(2, numOfZeros);
+            // Number which is result is 2^(number of zeroes) where number of zeroes come from binary from of number
         }
     }
 
